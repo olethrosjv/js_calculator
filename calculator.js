@@ -9,7 +9,7 @@
 "use strict"; // required by jslint
 
 /*
-File Name: week4.js
+File Name: calculator.js
 Date: 02/04/18
 Programmer: Joe Vaughn
 */
