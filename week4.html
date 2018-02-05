@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<!--
+File Name: week4.html
+Date: 02/04/18
+Programmer: Joe Vaughn
+-->
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Simple JavaScript Calculator</title>
+
+<link type="text/css" href="styles/week4.css" rel="stylesheet">
+
+</head>
+
+<body id = "myBody">
+
+<h1 id = "myH1">Simple JavaScript Calculator</h1>
+<h2 id = "myH2">Joe Vaughn</h2>
+
+<div>
+
+<form name="myForm">
+
+<table id="background">
+
+<tr>
+<td colspan="2" class="result">a <input type="text" id="a" size="4" value="" /></td>
+<td colspan="2" class="result">b <input type="text" id="b" size="4" value="" /></td>
+</tr>
+
+<tr>
+<td align="center"><input type="button" value="Add" onClick="operator('Add');" class="btn-style num-bg" /></td>
+<td align="center"><input type="button" value="Subtract" onClick="operator('Subtract');" class="btn-style num-bg" /></td>
+<td align="center"><input type="button" value="Multiply" onClick="operator('Multiply');" class="btn-style num-bg" /></td>
+<td align="center"><input type="button" value="Divide" onClick="operator('Divide');" class="btn-style num-bg" /></td>
+</tr>
+
+<tr>
+<td colspan="2" class="result">Answer (c) <input type="text" value="" id="c" size="12" /></td>
+<td colspan="2"><input type="button" value="Clear All" onClick="clearBoxes();" class="btn-style num-bg" /></td>
+</tr>
+
+</table>
+<p></p>
+
+</form>
+
+</div>
+
+<script type="text/javascript" src="scripts/week4.js"></script>
+
+</body>
+
+</html>
