@@ -18,18 +18,6 @@ Programmer: Joe Vaughn
 // The line below is to test your link to the .js file. Please comment it out (put // in front).
 //alert("the link to the .js file is correct!");
 
-// IMPORTANT:
-
-// - Please follow the main directions in Assignment 4. They will talk you through a 
-//   logical progression of writing and testing code for this project in the 
-//   week4.html and week4.js files.
-
-// - For full credit, you must enter your code *after* the numbered step that 
-//   asks for that code.
-
-// - For full credit, you must put a blank line before *and* after your code.
-
-// - Do not delete my comments in this file. I need them for grading.
 
 // - Note that variable names are shown with *stars* around them in the code below.
 
